@@ -25,7 +25,7 @@ GPIO.output(12, GPIO.HIGH)
 pwm = GPIO.PWM(12, 1000) #Set the frequency and GPIO pin. Keep pin to 12.
                          #Frequency has limited effect on the voltage. 
 
-tube=input("Enter tube of tube:  ")
+tube=input("Enter type of tube:  ")
 name=input("Enter label of tube:  ")
 levl=int(input("PWM Level: "))
 
@@ -109,8 +109,8 @@ pwm.stop(12)
 
 os.system("omxplayer analog-watch-alarm_daniel-simion.wav")
 pss="N"
-while pss != "Y":
-    pss=input("Tube is in Photo Test Configuration? (Y/N)")
+while pss != "y":
+    pss=input("Tube is in Photo Test Configuration? (y/n)")
 
 flname=tube+"/"+name+"/"+name+"_Photo"
 #file = open("R55_Dead2.txt", "w+")
