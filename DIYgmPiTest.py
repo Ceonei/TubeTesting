@@ -32,10 +32,11 @@ levl=int(input("PWM Level: "))
 if not os.path.exists(tube):
     os.makedirs(tube)
 
-os.system("cd /home/pi/Desktop/"+tube+"/")
+#os.system("cd /home/pi/Desktop/"+tube+"/")
 os.system("git init")
 os.system("git remote add origin https://github.com/Ceonei/TubeTesting")
 os.system("git ls-files --deleted -z | git update-index --assume-unchanged -z --stdin")
+#os.system("git clone https://github.com/Ceonei/TubeTesting")
 
 if not os.path.exists(tube+"/"+name):
     os.makedirs(tube+"/"+name)
