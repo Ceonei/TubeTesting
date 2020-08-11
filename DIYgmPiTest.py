@@ -44,7 +44,7 @@ if not os.path.exists(tube+"/"+name):
 
 pwm.start(levl) #Set duty cycle. Higher the number, higher the voltage
 
-flname=tube+"/"+name+"/"+name+"_Background"
+flname=tube+"/"+name+"/"+name+"_Background.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
@@ -113,7 +113,7 @@ pss="N"
 while pss != "y":
     pss=input("Tube is in Photo Test Configuration? (y/n)")
 
-flname=tube+"/"+name+"/"+name+"_Photo"
+flname=tube+"/"+name+"/"+name+"_Photo.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
@@ -149,7 +149,7 @@ pss="N"
 while pss != "y":
     pss=input("Tube is in LongCat Test Configuration? (y/n)")
 
-flname=tube+"/"+name+"/"+name+"_LongCat"
+flname=tube+"/"+name+"/"+name+"_LongCat.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
@@ -185,7 +185,7 @@ pss="N"
 while pss != "y":
     pss=input("Tube is in Long1 Test Configuration? (y/n)")
 
-flname=tube+"/"+name+"/"+name+"_Long1"
+flname=tube+"/"+name+"/"+name+"_Long1.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
@@ -221,7 +221,7 @@ pss="N"
 while pss != "y":
     pss=input("Tube is in Long2 Test Configuration? (y/n)")
 
-flname=tube+"/"+name+"/"+name+"_Long2"
+flname=tube+"/"+name+"/"+name+"_Long2.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
@@ -257,7 +257,7 @@ pss="N"
 while pss != "y":
     pss=input("Tube is in Long3 Test Configuration? (y/n)")
 
-flname=tube+"/"+name+"/"+name+"_Long3"
+flname=tube+"/"+name+"/"+name+"_Long3.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
@@ -293,7 +293,7 @@ pss="N"
 while pss != "y":
     pss=input("Tube is in Long4 Test Configuration? (y/n)")
 
-flname=tube+"/"+name+"/"+name+"_Long4"
+flname=tube+"/"+name+"/"+name+"_Long4.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
@@ -329,7 +329,7 @@ pss="N"
 while pss != "y":
     pss=input("Tube is in LongA Test Configuration? (y/n)")
 
-flname=tube+"/"+name+"/"+name+"_LongA"
+flname=tube+"/"+name+"/"+name+"_LongA.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
@@ -365,7 +365,7 @@ pss="N"
 while pss != "y":
     pss=input("Tube is in Dead1 Test Configuration? (y/n)")
 
-flname=tube+"/"+name+"/"+name+"_Dead1"
+flname=tube+"/"+name+"/"+name+"_Dead1.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
@@ -401,7 +401,7 @@ pss="N"
 while pss != "y":
     pss=input("Tube is in Dead12 Test Configuration? (y/n)")
 
-flname=tube+"/"+name+"/"+name+"_Dead12"
+flname=tube+"/"+name+"/"+name+"_Dead12.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
@@ -437,7 +437,7 @@ pss="N"
 while pss != "y":
     pss=input("Tube is in Dead2 Test Configuration? (y/n)")
 
-flname=tube+"/"+name+"/"+name+"_Dead2"
+flname=tube+"/"+name+"/"+name+"_Dead2.txt"
 #file = open("R55_Dead2.txt", "w+")
 file = open(flname, "w+")
 
